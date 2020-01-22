@@ -1,0 +1,154 @@
+.headline {
+    height: 250px;
+    background: linear-gradient(0deg, #e4f5ff, #61B9FF);
+}
+
+h1 {
+    font-size: 65px;
+    text-align: center;
+    font-family: HolidayMDJP05;
+    margin-top: 80px;
+}
+
+.contain {
+    text-align: center;
+}
+
+p {
+    font-size: 40px;
+    font-family: HolidayMDJP05;
+    margin-top: 50px;
+    color: #333;
+}
+
+.btn-left, .btn-center, .btn-right {
+    height: 50px;
+    width: 133px;
+    margin-top: 60px; 
+    position: relative;
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: .4em 2em .5em 3em/3em .5em 2em .5em;
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: HolidayMDJP05;
+    text-align: center;
+    background-color: #87ceeb;
+    transition: .4s;
+    transform: scale(1.0) rotate(-15deg);
+}
+/* 左ボタン */
+.btn-left span {
+    display:inline-block;
+    transition: .5s;
+}
+.btn-left:hover span {
+    -webkit-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+}
+/* 中央ボタン */
+.btn-center span {
+    display:inline-block;
+    transition: .5s;
+}
+.btn-center:hover span {
+    -webkit-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+}
+/* 右ボタン */
+.btn-right span {
+    display:inline-block;
+    transition: .5s;
+}
+.btn-right:hover span {
+    -webkit-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+}
+
+.left {
+    margin-right: 30px;
+}
+
+.right {
+    margin-left: 30px;
+}
+
+@media screen and (min-width:781px){
+/*画面幅が781px以上の時*/
+    .headline {
+        height: 250px;
+        background: linear-gradient(0deg, #e4f5ff, #61B9FF);
+    }
+
+    h1 {
+        font-size: 100px;
+        text-align: center;
+        font-family: HolidayMDJP05;
+        margin-top: 70px;
+    }
+
+    .contain {
+        text-align: center;
+    }
+
+    p {
+        font-size: 40px;
+        font-family: HolidayMDJP05;
+        margin-top: 50px;
+        color: #333;
+    }
+    
+    .btn-left, .btn-center, .btn-right {
+        height: 60px;
+        width: 200px;
+        margin-top: 60px; 
+        position: relative;
+        display: inline-block;
+        border: 1px solid #000;
+        border-radius: .4em 2em .5em 3em/3em .5em 2em .5em;
+        color: #000;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: HolidayMDJP05;
+        text-align: center;
+        background-color: #87ceeb;
+        transition: .4s;
+        transform: scale(1.0) rotate(-15deg);
+    }
+    /* 左ボタン */
+    .btn-left span {
+        display:inline-block;
+        transition: .5s;
+    }
+    .btn-left:hover span {
+        -webkit-transform: rotateX(360deg);
+        transform: rotateX(360deg);
+    }
+    /* 中央ボタン */
+    .btn-center span {
+        display:inline-block;
+        transition: .5s;
+    }
+    .btn-center:hover span {
+        -webkit-transform: rotateX(360deg);
+        transform: rotateX(360deg);
+    }
+    /* 右ボタン */
+    .btn-right span {
+        display:inline-block;
+        transition: .5s;
+    }
+    .btn-right:hover span {
+        -webkit-transform: rotateX(360deg);
+        transform: rotateX(360deg);
+    }
+
+    .left {
+        margin-right: 70px;
+    }
+
+    .right {
+        margin-left: 70px;
+    }
+}
