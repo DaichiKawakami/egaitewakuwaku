@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>キャンバス</title>
+        <meta name="description" content="キャンバス">
+        <meta content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0" name="viewport">
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="..\static\css\canvas.css" />
+        <script type="text/javascript" src="..\static\js\canvas.js"></script>
+    </head>
+
+    <body>
+            <header>
+                <div class="time">
+                    <i class="fas fa-stopwatch fa-2x"></i>
+                    <p id="time">残り□□秒</p>
+                </div>
+                <div class="odai">
+                    <h1>お題 </h1>
+                    <h2>□□□□</h2>
+                </div>
+                <div class="button">
+                    <!-- <button id="">←</button>
+                    <button id="">→</button>
+                    <button id="">ゴミ箱</button> -->
+                    <button id="button" class="fas fa-caret-square-left fa-3x"></button>
+                    <button id="button" class="fas fa-caret-square-right fa-3x"></button>
+
+                    <button id="delbt" class="fas fa-trash-alt fa-3x"></button>
+                </div>
+                <a href="index.html"><button class="fas fa-times-circle"></button></a>
+                <a href="result_single.html"><button class="btn">結果(仮ボタン)</button></a>
+            </header>
+            <canvas id="canvas">図形を表示するには、canvasタグをサポートしたブラウザが必要です。</canvas>
+        
+    </body>
+</html>
