@@ -1,0 +1,351 @@
+form {
+    width: 100%;
+    height: 100%;
+}
+.top, .bottom {
+    height: 78px;
+    border:solid 2px #87ceeb;
+    background-color: #fff;
+    display: table;
+}
+.akstn{
+    width: 504px;
+    display: table-cell;
+    vertical-align: middle;
+}
+a {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 遊びメモ書き;
+    margin: 0px 0px 0px 15px;
+    display: inline-block;
+}
+.odai {
+    width: 504px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.ask {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: HolidayMDJP05;
+    margin-top: 10px;
+}
+.div-random {
+    width: 354px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.random {
+    float: right;
+    margin: 3px 60px 0px 0px;
+}
+.btn-random {
+    width: 200px;
+    display: block;
+    border: 1px solid #000;
+    border-radius: .4em 2em .5em 3em/3em .5em 2em .5em;
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: HolidayMDJP05;
+    text-align: center;
+    background-color: #fff;
+}
+
+.middle {
+    height: 500px;
+    overflow-y: auto;
+    padding-left: 30px; 
+}
+p {
+    font-size:60px;
+    font-family: HolidayMDJP05;
+    font-weight: bold;
+    margin-right: 40px;
+    border-bottom: solid 2px #999999;
+}
+.radio {
+    width: 2em;
+height: 2em;
+margin-left: 40px;
+}
+.theme {
+    font-size: 30px;
+}
+.div-home {
+    width: 681px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.home {
+    float: left;
+    margin: 3px 0px 0px 60px;
+}
+.btn-home {
+    width: 200px;
+    border: 1px solid #000;
+    border-radius: .4em 2em .5em 3em/3em .5em 2em .5em;
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: HolidayMDJP05;
+    text-align: center;
+    background-color: #fff;
+}
+.div-decide {
+    width: 681px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.decide {
+    float: right;
+    margin: 3px 60px 0px 0px;
+}
+.btn-decide {
+    width: 200px;
+    border: 1px solid #000;
+    border-radius: .4em 2em .5em 3em/3em .5em 2em .5em;
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: HolidayMDJP05;
+    text-align: center;
+    background-color: #fff;
+}
+
+@media screen and (max-width:1241px){
+    form {
+        width: 100%;
+        height: 100%;
+    }
+    .top, .bottom {
+        width: 100%;
+        height: 78px;
+        border:solid 2px #87ceeb;
+        background-color: #fff;
+        display: table;
+    }
+    .akstn{
+        display: table-cell;
+        vertical-align: middle;
+    }
+    a {
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 遊びメモ書き;
+        margin: 0px 0px 0px 10px;
+        display: inline-block;
+    }
+    .odai {
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .ask {
+        font-size: 30px;
+        font-weight: bold;
+        font-family: HolidayMDJP05;
+        margin-top: 10px;
+    }
+    .div-random {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .random {
+        float: right;
+        margin: 3px 20px 0px 0px;
+    }
+    .btn-random {
+        width: 100px;
+        display: block;
+        border: 1px solid #000;
+        border-radius: .4em 2em .5em 3em/3em .5em 2em .5em;
+        color: #000;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: HolidayMDJP05;
+        text-align: center;
+        background-color: #fff;
+    }
+    
+    .middle {
+        height: 488px;
+        overflow-y: auto;
+        padding-left: 30px; 
+    }
+    p {
+        font-size:60px;
+        font-family: HolidayMDJP05;
+        font-weight: bold;
+        margin-right: 40px;
+        border-bottom: solid 2px #999999;
+    }
+    .radio {
+        width: 2em;
+    height: 2em;
+    margin-left: 40px;
+    }
+    .theme {
+        font-size: 30px;
+    }
+    .div-home {
+        width: 681px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .home {
+        float: left;
+        margin: 3px 0px 0px 20px;
+    }
+    .btn-home {
+        width: 170px;
+        border: 1px solid #000;
+        border-radius: .4em 2em .5em 3em/3em .5em 2em .5em;
+        color: #000;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: HolidayMDJP05;
+        text-align: center;
+        background-color: #fff;
+    }
+    .div-decide {
+        width: 681px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .decide {
+        float: right;
+        margin: 3px 20px 0px 0px;
+    }
+    .btn-decide {
+        width: 170px;
+        border: 1px solid #000;
+        border-radius: .4em 2em .5em 3em/3em .5em 2em .5em;
+        color: #000;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: HolidayMDJP05;
+        text-align: center;
+        background-color: #fff;
+    }
+}
+
+@media screen and (max-width:781px){
+    form {
+        width: 100%;
+        height: 100%;
+    }
+    .top, .bottom {
+        width: 100%;
+        height: 78px;
+        border:solid 2px #87ceeb;
+        background-color: #fff;
+        display: table;
+    }
+    .akstn{
+        display: table-cell;
+        vertical-align: middle;
+    }
+    a {
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 遊びメモ書き;
+        margin: 0px 0px 0px 10px;
+        display: inline-block;
+    }
+    .odai {
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .ask {
+        font-size: 20px;
+        font-weight: bold;
+        font-family: HolidayMDJP05;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .div-random {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .random {
+        float: right;
+        margin: 3px 20px 0px 0px;
+    }
+    .btn-random {
+        width: 100px;
+        display: block;
+        border: 1px solid #000;
+        border-radius: .4em 2em .5em 3em/3em .5em 2em .5em;
+        color: #000;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: HolidayMDJP05;
+        text-align: center;
+        background-color: #fff;
+    }
+    
+    .middle {
+        height: 488px;
+        overflow-y: auto;
+        padding-left: 30px; 
+    }
+    p {
+        font-size:60px;
+        font-family: HolidayMDJP05;
+        font-weight: bold;
+        margin-right: 40px;
+        border-bottom: solid 2px #999999;
+    }
+    .radio {
+        width: 2em;
+    height: 2em;
+    margin-left: 40px;
+    }
+    .theme {
+        font-size: 30px;
+    }
+    .div-home {
+        width: 681px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .home {
+        float: left;
+        margin: 3px 0px 0px 20px;
+    }
+    .btn-home {
+        width: 170px;
+        border: 1px solid #000;
+        border-radius: .4em 2em .5em 3em/3em .5em 2em .5em;
+        color: #000;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: HolidayMDJP05;
+        text-align: center;
+        background-color: #fff;
+    }
+    .div-decide {
+        width: 681px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .decide {
+        float: right;
+        margin: 3px 20px 0px 0px;
+    }
+    .btn-decide {
+        width: 170px;
+        border: 1px solid #000;
+        border-radius: .4em 2em .5em 3em/3em .5em 2em .5em;
+        color: #000;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: HolidayMDJP05;
+        text-align: center;
+        background-color: #fff;
+    }
+}
