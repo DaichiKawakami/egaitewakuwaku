@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> 結果画面 </title>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="viewport" content="width=device-width, inital-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="..\static\css\result_single.css" />
+    </head>
+    <body>
+
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-md-9 content">
+                    <div class="result">
+                        <p class="odai">ねこ</p>
+                        <p class="score"><span>□□</span>点</p>
+                    </div>
+                    <div class="picture">
+                        <a href="#"><img src="../static/img/ダウンロード.png"></a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 side">
+                    <a href="theme_select.html" class="continue"><button type="button" class="btn btn-continue">続ける</button></a>
+                    <a href="index.html" class="quit" data-toggle="modal" data-target="#basicModal"><button type="button" class="btn btn-quit">やめる</button></a>
+                    <div class="modal fade"id="basicModal"tabindex="-1"role="dialog"aria-labelledby="basicModal"aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <h1>ホーム画面に戻ります。<br>よろしいですか？</h1>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="index.html"><button type="button"class="btn btn-primary yes">はい</button></a>
+                                    <button type="button"class="btn btn-default no"data-dismiss="modal">いいえ</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+            
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    </body>
+</html>
